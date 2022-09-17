@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i,j;
+        for(j=1;j<=9;j++)
+        {
+        if(j==6)
+        {
+        printf("\n");
+        }
+        printf("%d",j);
+        }
+        for(j=1;j<=9;j++)
+        {
+        if(j==2||j==7)
+        {
+        printf("\n");
+        }
+        printf("%d",j);
+        }
+        for(j=1;j<=7;j++)
+        {
+        if(j==3)
+        {
+        printf("\n");
+        }
+        printf("%d",j);
+        }
+}
